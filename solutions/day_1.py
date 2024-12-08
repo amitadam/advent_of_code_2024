@@ -1,13 +1,6 @@
-data_array_1 = []
-data_array_2 = []
+import functions
 
-# Fill arrays with data from input file
-with open('input_1', 'r') as input_file:
-    for line in input_file:
-        line_values = line.strip().split()
-        if len(line_values) == 2:
-            data_array_1.append(int(line_values[0]))
-            data_array_2.append(int(line_values[1]))
+data_array_1, data_array_2 = functions.read_data_from_input_1()
 
 # Sort data arrays
 data_array_1.sort()
