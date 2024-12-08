@@ -2,7 +2,7 @@ data_array_1 = []
 data_array_2 = []
 
 # Fill arrays with data from input file
-with open('input_day_1', 'r') as input_file:
+with open('input_1', 'r') as input_file:
     for line in input_file:
         line_values = line.strip().split()
         if len(line_values) == 2:
