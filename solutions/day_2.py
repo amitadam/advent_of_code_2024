@@ -8,7 +8,7 @@ for value in data_array_2:
     if value in data_appearances_in_array_2:
         data_appearances_in_array_2[value] += 1
     else:
-        data_appearances_in_array_2[value] = 0
+        data_appearances_in_array_2[value] = 1
 
 similarity_score = 0
 for value in data_array_1:
