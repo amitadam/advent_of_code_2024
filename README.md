@@ -1,1 +1,1 @@
-My solutions for the advent of code 2024 challenge
+Advent of code 2024 solutions
